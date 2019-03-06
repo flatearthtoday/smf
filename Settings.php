@@ -20,7 +20,7 @@ $mmessage    = 'Okay faithful users...we\'re attempting to restore an older back
 ########## Forum Info ##########
 $mbname          = 'The Flat Earth Society'; # The name of your forum.
 $language        = 'english';		         # The default language file set for the forum.
-$boardurl        = 'http://10.0.0.188';		 # URL to your forum's folder. (without the trailing /!)
+$boardurl        = 'http://staging.theflatearthsociety.org';		 # URL to your forum's folder. (without the trailing /!)
 $webmaster_email = 'john@theflatearthsociety.org';
                                              # Email address to send emails from. (like noreply@yourdomain.com.)
 $cookiename      = 'FESCookie';		         # Name of the cookie to set for authentication.
