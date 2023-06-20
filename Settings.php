@@ -39,9 +39,9 @@ $db_error_send = 1;
 
 ########## Directories/Files ##########
 # Note: These directories do not have to be changed unless you move things.
-$boarddir  = '/var/www/html';		# The absolute path to the forum's folder. (not just '.'!)
-$sourcedir = '/var/www/html/Sources';		# Path to the Sources directory.
-$cachedir  = '/var/www/html/cache';		# Path to the cache directory.
+$boarddir = '/home/theflate/www/forum';		# The absolute path to the forum's folder. (not just '.'!)
+$sourcedir = '/home/theflate/forum_sources/Sources';		# Path to the Sources directory.
+$cachedir = '/home/theflate/forum_sources/cache';		# Path to the cache directory.
 
 ########## Error-Catching ##########
 # Note: You shouldn't touch these settings.

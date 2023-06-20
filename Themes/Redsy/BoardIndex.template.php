@@ -140,17 +140,16 @@ function template_main()
 
 				// If the board or children is new, show an indicator.
 				if ($board['new'] || $board['children_new'])
-					echo '
-							<div class="newpostsbutton"><i class="fa fa-comments-o"></i></div>';
+					echo '<div class="newpostsbutton"><i class="fa fa-comments-o"></i></div>
+							';
 				// Is it a redirection board?
 				elseif ($board['is_redirect'])
 					echo '
 							<img src="', $settings['images_url'], '/', $context['theme_variant_url'], 'redirect.png" alt="*" title="*" />';
 				// No new posts at all! The agony!!
 				else
-					echo '
-							<div class="oldpostsbutton"><i class="fa fa-comments-o"></i></div>';
-
+					echo '<div class="oldpostsbutton"><i class="fa fa-comments-o"></i></div>
+							';
 				echo '
 						</a>
 					</td>

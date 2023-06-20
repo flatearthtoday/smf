@@ -1,0 +1,3 @@
+[09-Aug-2016 22:26:40 Asia/Singapore] PHP Notice:  Undefined variable: usersLImitFile in /home/theflate/public_html/forum/pu/ratelimit.php on line 33
+[18-Aug-2016 22:00:10 Asia/Singapore] PHP Warning:  mkdir(): File exists in /home/theflate/public_html/forum/pu/ratelimit.php on line 13
+[18-Aug-2016 22:00:11 Asia/Singapore] PHP Notice:  Undefined variable: usersLImitFile in /home/theflate/public_html/forum/pu/ratelimit.php on line 33
